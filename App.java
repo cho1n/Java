@@ -1,12 +1,15 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
        // System.out.println("hello wor");
-       int data = 10, hello;
 
-       data = 20;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("> ");
 
-       hello = data;
-
-       System.out.println(data + " " + hello);
+       int data = sc.nextInt();
+       System.out.println("나이는" + data + "살 입니다.");
+    
+       sc.close();
     }
 }
