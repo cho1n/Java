@@ -1,11 +1,12 @@
+import java.util.Scanner;
+
 public class Java_2023_03_14 {
     public static void main(String[] args) throws Exception{
-        String str;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("이름 입력 : ");
+        String str = sc.next();
 
-        str = "Hello";
-        
-
-        System.out.println(str);
-
+        System.out.println("> 이름은 " + str + "입니다.");
+        sc.close();
     }
 }
