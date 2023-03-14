@@ -1,11 +1,11 @@
 public class Java_2023_03_14 {
     public static void main(String[] args) throws Exception{
-        boolean flag;
+        String str;
 
-        flag = false;
+        str = "Hello";
         
 
-        System.out.println(flag);
+        System.out.println(str);
 
     }
 }
