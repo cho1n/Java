@@ -11,6 +11,6 @@ public class Java_2023_03_09 {
         int data3 = sc.nextInt();
         System.out.print("> " + data3 + " " + data2 + " " + data);
 
-
+        sc.close();
     }
 }
